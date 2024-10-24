@@ -1,4 +1,4 @@
-# speech-mamba-public
+# speech-mamba
 
 
 This is the implementation of the SLT paper Speech-Mamba: Long-Context Speech Recognition with Selective State Spaces Models.
