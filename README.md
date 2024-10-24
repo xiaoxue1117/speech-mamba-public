@@ -14,12 +14,14 @@ git clone https://github.com/speechbrain/speechbrain.git
 cd speechbrain
 pip install -r requirements.txt
 pip install --editable .
-
+```
 Please also install Pytorch and other dependencies:
+```
 pip install sox librosa soundfile
 pip install ctc-segmentation
 pip install kaldilm
 pip install mamba-ssm
+```
 
 ### Citation
 Please cite the following paper:
