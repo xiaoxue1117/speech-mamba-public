@@ -24,6 +24,7 @@ You can download LibriSpeech at http://www.openslr.org/12
 
 ### Train
 cd ./speechbrain/recipes/LibriSpeech/ASR/transformer
+
 python train.py hparams/mamba.yaml
 
 ### Test
