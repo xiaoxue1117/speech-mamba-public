@@ -23,20 +23,30 @@ pip install mamba-ssm
 You can download LibriSpeech at http://www.openslr.org/12
 
 ### Train
+```
 cd ./speechbrain/recipes/LibriSpeech/ASR/transformer
+```
 
-Train the Speech-Mamba model with 100 hours of data
+Train the Speech-Mamba model with 100 hours of data:
+```
 python train.py hparams/mamba.yaml
+```
 
-Train the Speech-Mamba model with 960 hours of data
+Train the Speech-Mamba model with 960 hours of data:
+```
 python train.py hparams/mamba960h.yaml
+```
 
 ### Test
+```
 python train.py hparams/mamba.yaml --test_only
+```
 
 In order to test on long-context data, you can create longer test data from 45 seconds to 60 seconds by:
+```
 python combine_wav.py
 python train.py hparams/mamba.yaml --test_only
+```
 
 ### Citation
 Please cite the following paper:
