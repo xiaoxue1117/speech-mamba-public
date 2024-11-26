@@ -1,6 +1,6 @@
 # Speech-Mamba
 
-This is the implementation of the SLT paper Speech-Mamba: Long-Context Speech Recognition with Selective State Spaces Models. Please find more details in the paper https://arxiv.org/pdf/2409.18654.
+This is the implementation of the SLT paper Speech-Mamba: Long-Context Speech Recognition with Selective State Spaces Models. This repo can only be used for research purpose. Please find more details in the paper https://arxiv.org/pdf/2409.18654.
 
 ### Set Up
 
