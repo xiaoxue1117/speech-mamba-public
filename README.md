@@ -45,7 +45,6 @@ python train.py hparams/mamba.yaml --test_only
 In order to test on long-context data, you can create longer test data from 45 seconds to 60 seconds by:
 ```
 python combine_wav.py
-python train.py hparams/mamba.yaml --test_only
 ```
 
 ### Citation
