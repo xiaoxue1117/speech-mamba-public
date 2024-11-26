@@ -47,6 +47,10 @@ In order to test on long-context data, you can create longer test data from 45 s
 python combine_wav.py
 ```
 
+### Pretrained Models
+Please find the pretrained Speech-Mamba models with 100 hours and 960 hours of data in the below link.
+https://drive.google.com/drive/folders/1hxinZXQ933thZnLMFpp1v_SUnrcP6EkV?usp=drive_link
+
 ### Citation
 Please cite the following paper:
 ```
